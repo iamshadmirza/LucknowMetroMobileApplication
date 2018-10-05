@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".registration"
+    tools:layout_editor_absoluteY="25dp">
+
+    <EditText
+        android:id="@+id/tvUserInput"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/tvUserEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_email"
+        android:ems="10"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/grey"
+        app:layout_constraintEnd_toEndOf="@+id/tvUserInput"
+        app:layout_constraintStart_toStartOf="@+id/tvUserInput"
+        app:layout_constraintTop_toBottomOf="@+id/tvUserInput" />
+
+    <EditText
+        android:id="@+id/tvUserPwd"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_pwd"
+        android:ems="10"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:textColor="@color/grey"
+        app:layout_constraintEnd_toEndOf="@+id/tvUserEmail"
+        app:layout_constraintStart_toStartOf="@+id/tvUserEmail"
+        app:layout_constraintTop_toBottomOf="@+id/tvUserEmail" />
+
+    <EditText
+        android:id="@+id/tvUserPhone"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="24dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_phone"
+        android:ems="10"
+        android:hint="Enter phone"
+        android:inputType="phone"
+        android:textColor="@color/grey"
+        app:layout_constraintEnd_toEndOf="@+id/tvUserPwd"
+        app:layout_constraintStart_toStartOf="@+id/tvUserPwd"
+        app:layout_constraintTop_toBottomOf="@+id/tvUserPwd" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/registerButton"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:elevation="10dp"
+        app:cardBackgroundColor="@color/colorAccent"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tvUserPhone"
+        app:layout_constraintStart_toStartOf="@+id/tvUserPhone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Register"
+                android:textColor="@color/grey"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/goToLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:gravity="center_horizontal"
+        android:text="Already a user? Sign In!"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/registerButton"
+        app:layout_constraintStart_toStartOf="@+id/registerButton" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/registerButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvUserPhone" />
+
+</android.support.constraint.ConstraintLayout>

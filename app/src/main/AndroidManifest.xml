@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mdworks.login">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Lucknow Metro"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".registration" android:label="Register New User" android:parentActivityName=".Home"/>
+        <activity android:name=".Home" android:label="Home" />
+        <activity android:name=".FairPage" android:label="Fair and Route Calculator" android:parentActivityName=".Home"/>
+        <activity android:name=".MapPage" android:label="Map" android:parentActivityName=".Home"/>
+        <activity android:name=".SmartCardPage" android:label="SmartCard application" android:parentActivityName=".Home"/>
+        <activity android:name=".ContactPage" android:label="Contact Us" android:parentActivityName=".Home"/>
+        <activity android:name=".LostAndFoundPage" android:label="Lost and Found Zone" android:parentActivityName=".Home"/>
+        <activity android:name=".DonatePage" android:label="Donate Us!" android:parentActivityName=".Home"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string-array name="spinnerList">
+        <item>Station0</item>
+        <item>Station1</item>
+        <item>Station2</item>
+        <item>Station3</item>
+        <item>Station4</item>
+    </string-array>
+    <string name="instalink">
+        <a href= "http://www.instagram.com/iamshadmirza">Visit creator on Instagram</a>
+    </string>
+    <string name="facebooklink">
+        <a href= "http://www.fb.com/iamshadmirza">Visit creator on Facebook</a>
+    </string>
+    <string name="twitterlink">
+        <a href= "http://www.twitter.com/iamshadmirza">Visit creator on Twitter</a>
+    </string>
+    <string name="githublink">
+        <a href= "http://www.github.com/iamshadmirza">Visit creator on GitHub</a>
+    </string>
+    <string name="lmrcmail">
+        <a href= "feedback@lmrc.com">feedback@lmrc.com</a>
+    </string>
+    <string name="address">
+        Lucknow Metro Rail Corporation Ltd.\n
+        Administrative Building.\n
+        Near Dr. Bhimrao Ambedkar Samajik,\n
+        Parivartan Sthal, Vipin Khand, Gomti Nagar,\n
+        Lucknow-226010
+    </string>
+    <string name="lostandfound">
+        For Lost and Found concerns please contact.\n
+        Transport Nagar Station\n
+        Contact no.-0522-66002518\n
+        Timing- 05:00 to 20:00 hrs
+    </string>
+</resources>

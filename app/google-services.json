@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1036787384427",
+    "firebase_url": "https://metro-qwerty.firebaseio.com",
+    "project_id": "metro-qwerty",
+    "storage_bucket": "metro-qwerty.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036787384427:android:a7087b9560687c29",
+        "android_client_info": {
+          "package_name": "com.mdworks.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036787384427-bsdim58n0dsc62gle9qa6bvgcl5o5qkf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mdworks.login",
+            "certificate_hash": "39115ab1b245349ea097cfb4c57b56bf61cb82a5"
+          }
+        },
+        {
+          "client_id": "1036787384427-rvg0q7mquh453h9l6f0fkk2bml7jgaau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBntwOkJQJMY3F7lMelDR4MP8T3mUN7880"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036787384427-rvg0q7mquh453h9l6f0fkk2bml7jgaau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
